@@ -1,0 +1,25 @@
+Creighton Basketball
+BLUE
+background-color: #005CA9;
+background-color: #005AA3; (adjusted for white contrast)
+NAVY BLUE
+background-color: #00235D;
+LIGHT BLUE
+background-color: #6CADDE;
+GRAY
+background-color: #828282;
+background-color: #595959; (adjusted for white contrast)
+LIGHT GRAY
+background-color: #C8C8C8;
+SILVER METALLIC
+background-color: #8A8D8F;
+
+Arizona Flag
+Alloy Orange
+background-color: #CE5C17
+Web Gold
+background-color: #FED700
+NCS Red
+background-color: #BF0A30
+Cool Black (blue)
+background-color: #002868

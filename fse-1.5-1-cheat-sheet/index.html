@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>Cheat Sheet</title>
+</head>
+<body>
+  <main>
+      <table class="header">     
+          <thead>
+            <tr>
+              <td colspan="3"><h2>Position Property</h2><br>
+                The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.</td>
+            </tr>
+            <tr>
+              <th>Type</th>
+              <th>Value</th>
+              <th>Property Description</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="type">Static</td>
+              <td>none</td>
+              <td>The element is positioned according to the normal flow of the document.<br><span>This is the default value.</span></td>
+            </tr>
+            <tr>
+              <td class="type">Relative</td>
+              <td>top, right, bottom, and left</td>
+              <td>Positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static</td>
+            </tr>
+            <tr>
+              <td class="type">Absolute</td>
+              <td>top, right, bottom, and left</td>
+              <td>Removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. </td>
+            </tr>
+            <tr>
+              <td class="type">Fixed</td>
+              <td>top, right, bottom, and left</td>
+              <td>Removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport</td>
+            </tr>
+            <tr>
+              <td class="type">Sticky</td>
+              <td>top, right, bottom, and left</td>
+              <td>Positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements</td>
+            </tr>
+          </tbody>
+
+            <tbody>
+                <tr>
+                    <th colspan="3">Other Positional Properties</th>
+                </tr>
+                <tr>
+                    <th scope="col">Float</th>
+                    <td>left, right, none</td>
+                    <td>The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning).</td>
+                </tr>
+                <tr>
+                    <th scope="col">Display</th>
+                    <td>block, inline-block, none, flex, grid</td>
+                    <td>The display CSS property sets whether an element is treated as a block or inline box and the layout used for its children, such as flow layout, grid or flex.</td>
+                </tr>
+                <tr>
+                    <th scope="col">z-index</th>
+                    <td colspan="2">Sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.</td>
+                </tr>
+            </tbody>
+
+      <thead>
+        <tr>
+          <td colspan="3"><h2>CSS Combinators</h2><br>
+            Combinators clarify the relationship between two selectors you want to use to identify the element you want to style</td>
+        </tr>
+      <tr>
+        <th>Selector</th>
+        <th>Example</th>
+        <th>Description</th>
+      </tr>
+      <tbody>
+      <tr>
+        <td>.class</td>
+        <td>.intro</td>
+        <td>Select all elements with class="intro"</td>
+      </tr>
+      <tr>
+        <td>.class1.class2</td>
+        <td>.name1.name2</td>
+        <td>Select all elements with name1 and name2 set within its class attribute</td>
+      </tr>
+      <tr>
+        <td>.class1 .class2</td>
+        <td>.name1 .name2</td>
+        <td>Select all elements with name2 that is a descendant with name1</td>
+      </tr>
+      <tr>
+        <td>#id</td>
+        <td>#firstname</td>
+        <td>Select element with id="firstname"</td>
+      </tr>
+      <tr>
+        <td>*</td>
+        <td>*</td>
+        <td>Select all elements</td>
+      </tr>
+      <tr>
+        <td>element</td>
+        <td>p</td>
+        <td>Select all p elements</td>
+      </tr>
+      <tr>
+        <td>element.class</td>
+        <td>p.intro</td>
+        <td>Select all p element with class="intro"</td>
+      </tr>
+      <tr>
+        <td>element,element</td>
+        <td>div, p</td>
+        <td>Select all div elements and all p elements</td>
+      </tr>
+      <tr>
+        <td>element element</td>
+        <td>div p</td>
+        <td>Select all &lt;p&gt; elements inside &lt;div&gt; element </td>
+      </tr>
+      <tr>
+        <td>element &gt; element</td>
+        <td>div &gt;p</td>
+        <td>Select all &lt;p&gt; where the parent is &lt;div&gt;</td>
+      </tr>
+    </tbody></table>
+
+
+
+    </main>
+    <!-- footer -->
+    <footer>
+      <address>
+       <br>
+       Author contact info:
+       <a href="mailto:jacobsternx@gmail.com">Jacob Stern</a>.
+      </address>
+      <p><small>copyright 2024 Jacob Stern</small></p>
+     </footer>
+
+</body>
+</html>
